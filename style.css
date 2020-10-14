@@ -88,7 +88,9 @@ li {
 }
 
 footer {
+  height: 42px;
   background-color: rgb(75, 4, 75);
   color: rgb(247, 246, 244);
   text-align: center;
+  padding-top: 3px;
 }
