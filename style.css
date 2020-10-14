@@ -1,0 +1,84 @@
+body {
+  background-color: bisque;
+}
+
+header {
+  background-color: rgb(75, 4, 75);
+  padding: top 18px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(253, 245, 236);
+  text-transform: uppercase;
+  font-size: 80px;
+  padding-top: 32px;
+}
+
+ul {
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  margin: 12px;
+  margin-top: 4px;
+  padding: 16px;
+  border: 2px solid bisque;
+  border-radius: 5px;
+  color: white;
+  text-transform: uppercase;
+  letter-spacing: 1.25px;
+  background-color: rgba(255, 228, 196, 0.2);
+}
+
+.top {
+  text-align: center;
+}
+
+.large-img {
+  width: 800px;
+  length: 200px;
+}
+
+.small-img {
+  width: 200px;
+  length: 200px;
+}
+
+#lower {
+  display: flex;
+  margin: 12px 4px;
+  text-align: center;
+}
+
+.bottom {
+  margin: 3px;
+  padding: 16px;
+  border: 3px solid rgb(75, 4, 75);
+  border-radius: 5px;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.363);
+}
+
+.dar-ci {
+  display: flexbox;
+  text-align: center;
+  padding-top: 8px;
+  padding-bottom: 16px;
+}
+
+.btn {
+  padding: 8px;
+  text-align: center;
+  border: 2px solid rgb(75, 4, 75);
+  border-radius: 5px;
+  background-color: rgba(75, 4, 75, 0.3);
+  color: white;
+  text-transform: uppercase;
+}
+
+footer {
+  background-color: rgb(75, 4, 75);
+  color: rgb(247, 246, 244);
+  text-align: center;
+}
