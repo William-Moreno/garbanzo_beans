@@ -83,7 +83,9 @@ li {
   border: 2px solid rgb(75, 4, 75);
   border-radius: 5px;
   background-color: rgba(75, 4, 75, 0.3);
-  color: white;
+  color: rgba(75, 4, 75, 1);
+  text-decoration: none;
+  font-weight: bold;
   text-transform: uppercase;
 }
 
