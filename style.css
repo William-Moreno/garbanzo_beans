@@ -32,18 +32,27 @@ li {
   background-color: rgba(255, 228, 196, 0.2);
 }
 
+.nav-btn {
+  color: rgb(250, 240, 227);
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+}
+
 .top {
   text-align: center;
 }
 
 .large-img {
-  width: 800px;
-  length: 200px;
+  width: 85vw;
+  height: 300px;
+  border-radius: 16px;
 }
 
 .small-img {
   width: 200px;
-  length: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
 #lower {
