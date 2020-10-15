@@ -7,11 +7,11 @@ var dayNow = weekday[today.getDay()];
 var greeting;
 
 
-if (hourNow > 18){
+if (hourNow > 17){
  greeting = `Good evening, ${userName}!`;
 } else if (hourNow > 12){
   greeting = `Good afternoon, ${userName}!`;
-}else if (hourNow > 6){
+} else if (hourNow > 6){
   greeting = `Good morning, ${userName}!`;
 } else {
   greeting = `You should be sleeping, ${userName}!`;
