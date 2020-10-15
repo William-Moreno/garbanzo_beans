@@ -17,10 +17,6 @@ h1 {
   padding-top: 32px;
 }
 
-nav {
-  text-align: center;
-}
-
 h2 {
   margin-top: -32px;
   color: rgb(75, 4, 75);
@@ -92,6 +88,7 @@ li {
 }
 
 .bottom {
+  width: 30vw;
   background-color: bisque;
   margin: 3px;
   padding: 16px;
