@@ -19,7 +19,7 @@ if (hourNow > 18){
 
 alert(greeting);
 
-document.write(`<h3>It is ${today}</h3><br /><h2>${userName}, the suggested recipe  for ${dayNow} is...</h2>`);
+document.write(`<h2>${userName}, the suggested recipe  for ${dayNow} is...</h2>`);
 
 
 
