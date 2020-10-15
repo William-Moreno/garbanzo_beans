@@ -125,6 +125,6 @@ footer {
 }
 
 .lift {
-  transition: 2s;
+  transition: 2.5s;
   transform: translateY(-50%);
 }
