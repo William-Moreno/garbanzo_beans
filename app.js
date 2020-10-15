@@ -1,26 +1,26 @@
-var userName = prompt(`Hello. What is your name?`, 'Visitor');
-var today = new Date();
-var hourNow = today.getHours();
-var weekday = [`Sunday`,`Monday`,`Tuesday`,`Wednesday`,`Thursday`,`Friday`,`Saturday`]
-var dayNow = weekday[today.getDay()];
-var greeting;
+function welcome(){
+  var userName = prompt(`Hello. What is your name?`, 'Visitor');
+  var today = new Date();
+  var weekday = [`Sunday`,`Monday`,`Tuesday`,`Wednesday`,`Thursday`,`Friday`,`Saturday`]
+  var dayNow = weekday[today.getDay()];
+  
+  document.write(`<h2>${userName}, the suggested recipe  for ${dayNow} is...</h2>`);
 
-
-if (hourNow > 17){
- greeting = `Good evening, ${userName}!`;
-} else if (hourNow > 12){
-  greeting = `Good afternoon, ${userName}!`;
-} else if (hourNow > 6){
-  greeting = `Good morning, ${userName}!`;
-} else {
-  greeting = `You should be sleeping, ${userName}!`;
 }
 
-alert(greeting);
+function daysRecipe(){
+  var random = Math.floor(Math.random() * 3);
 
-document.write(`<h2>${userName}, the suggested recipe  for ${dayNow} is...</h2>`);
+  if (random == 0){
+    var card = document.getElementById('left');
+  } else if (random == 1){
+    var card = document.getElementById('middle');
+  } else {
+    var card = document.getElementById('right');
+  } 
 
-
+  card.classList.add("lift");
+}
 
 
 
