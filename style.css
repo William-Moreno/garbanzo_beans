@@ -3,6 +3,7 @@ body {
 }
 
 header {
+  margin-top: -48px;
   background-color: rgb(75, 4, 75);
   padding: top 18px;
 }
@@ -40,19 +41,23 @@ li {
 }
 
 .top {
-  margin-top: 72px;
+  margin-top: 48px;
   text-align: center;
 }
 
 .large-img {
   width: 85vw;
   height: 300px;
+  object-fit: cover;
+  border: 2px solid #000;
   border-radius: 16px;
 }
 
 .small-img {
   width: 200px;
   height: 200px;
+  object-fit: cover;
+  border: 2px solid #000;
   border-radius: 50%;
 }
 
