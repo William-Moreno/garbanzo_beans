@@ -1,7 +1,6 @@
 var userName = prompt(`Hello. What is your name?`, 'Visitor');
 var today = new Date();
 var hourNow = today.getHours();
-var dateNow = today.getDate();
 var weekday = [`Sunday`,`Monday`,`Tuesday`,`Wednesday`,`Thursday`,`Friday`,`Saturday`]
 var dayNow = weekday[today.getDay()];
 var greeting;
