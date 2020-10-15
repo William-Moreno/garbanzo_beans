@@ -63,6 +63,7 @@ li {
 }
 
 .bottom {
+  background-color: bisque;
   margin: 3px;
   padding: 16px;
   border: 3px solid rgb(75, 4, 75);
@@ -95,4 +96,9 @@ footer {
   color: rgb(247, 246, 244);
   text-align: center;
   padding-top: 3px;
+}
+
+.lift {
+  transition: 2s;
+  transform: translateY(-50%);
 }
