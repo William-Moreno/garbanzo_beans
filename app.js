@@ -46,7 +46,7 @@ function likeIt(){
       var rating = prompt('Please enter a number between 1 and 5.');
     }
 
-    rate = rating;
+    rate = Math.floor(rating);
     showRating();
     stampIt();
     lower.classList.remove("lift");
