@@ -58,7 +58,7 @@ function likeIt(){
   }
 
   function stampIt(){
-    award.innerHTML = finalScore;
+    award.innerHTML = finalScore + '<br /><h6>' + rate + '</h6>';
   }
 }
 
