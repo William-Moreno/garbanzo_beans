@@ -6,7 +6,7 @@ function welcome(){
   
   document.write('<h2>' + userName + ', the suggested recipe  for ' + dayNow + ' is...</h2>');
 }
-
+var lower;
 var award;
 
 function daysRecipe(){
@@ -25,6 +25,7 @@ function daysRecipe(){
 
   card.classList.add("lift");
   award = star;
+  lower = card;
 }
 
 
@@ -45,6 +46,7 @@ function likeIt(){
     rate = rating;
     showRating();
     stampIt();
+    lower.classList.remove("lift");
   }
 
   function showRating(){
