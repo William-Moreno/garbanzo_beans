@@ -4,7 +4,7 @@ function welcome(){
   var weekday = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
   var dayNow = weekday[today.getDay()];
   
-  document.write('<h2>' + userName + ', the suggested recipe  for ' + dayNow + ' is...</h2>');
+  document.write('<h2><i>' + userName + '</i>, the suggested recipe  for <b>' + dayNow + '</b> is...</h2>');
 }
 var lower;
 var award;

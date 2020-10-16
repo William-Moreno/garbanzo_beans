@@ -19,7 +19,8 @@ h1 {
 
 h2 {
   margin-top: -32px;
-  color: rgb(75, 4, 75);
+  margin-bottom: 6px;
+  color: rgb(36, 2, 36);
   font-size: 48px;
 }
 
@@ -70,7 +71,7 @@ li {
 
 .large-img {
   width: 85vw;
-  height: 300px;
+  height: 400px;
   object-fit: cover;
   border: 2px solid #000;
   border-radius: 16px;
