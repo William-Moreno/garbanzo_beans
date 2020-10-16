@@ -6,32 +6,34 @@ function welcome(){
   
   document.write('<h2>' + userName + ', the suggested recipe  for ' + dayNow + ' is...</h2>');
 }
+
 var award;
 
 function daysRecipe(){
-var random = Math.floor(Math.random() * 3);
+  var random = Math.floor(Math.random() * 3);
 
+  if (random == 0){
+    var card = document.getElementById('left');
+    var star = document.getElementById('curry');
+  } else if (random == 1){
+    var card = document.getElementById('middle');
+    var star = document.getElementById('nuggets');
+  } else {
+    var card = document.getElementById('right');
+    var star = document.getElementById('falafel');
+  } 
 
-if (random == 0){
-  var card = document.getElementById('left');
-  var star = document.getElementById('curry');
-} else if (random == 1){
-  var card = document.getElementById('middle');
-  var star = document.getElementById('nuggets');
-} else {
-  var card = document.getElementById('right');
-  var star = document.getElementById('falafel');
-} 
-
-card.classList.add("lift");
-award = star;
+  card.classList.add("lift");
+  award = star;
 }
 
-// function likeIt(){
+
+function likeIt(){
   beans = '<img src="garbanzo.png" width="50px" height="50px">';
 
   var rate;
   var finalScore;
+  rateIt();
 
   function rateIt(){
     var rating = prompt('From 1 to 5, How many beans would you rate this dish?');
@@ -56,5 +58,5 @@ award = star;
   function stampIt(){
     award.innerHTML = finalScore;
   }
-// }
+}
 

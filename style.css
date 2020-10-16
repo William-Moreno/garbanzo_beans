@@ -1,5 +1,6 @@
 body {
   background-color: bisque;
+  height: 100vh;
 }
 
 header {
@@ -94,7 +95,7 @@ li {
   padding: 16px;
   border: 3px solid rgb(75, 4, 75);
   border-radius: 5px;
-  box-shadow: 3px 6px rgba(0, 0, 0, 0.363);
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.333);
 }
 
 .dar-ci {
@@ -129,6 +130,19 @@ footer {
   transform: translateY(-15%);
 }
 
-.rating {
-  display: flex;
+#vote-btn {
+  background-color: white;
+  padding: 8px;
+  font-size: 24px;
+  border: transparent;
+  border-radius: 10px;
+  float: right;
+  margin-right: 50px;
+  text-transform: uppercase;
+  font-weight: bold;
+  box-shadow: 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+#vote-btn:hover {
+  cursor: pointer;
 }
