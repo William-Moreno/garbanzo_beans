@@ -38,6 +38,9 @@ function likeIt(){
 
   function rateIt(){
     var rating = prompt('From 1 to 5, How many beans would you rate this dish?');
+    while (isNaN(Number(rating))){
+      rating = prompt('Please enter a number between 1 and 5.');
+    }
 
     while(rating < 1 || rating > 5){
       var rating = prompt('Please enter a number between 1 and 5.');
