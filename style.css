@@ -96,6 +96,7 @@ li {
   border: 3px solid rgb(75, 4, 75);
   border-radius: 5px;
   box-shadow: 3px 6px rgba(0, 0, 0, 0.333);
+  transition: 3s;
 }
 
 .dar-ci {
@@ -126,7 +127,7 @@ footer {
 }
 
 .lift {
-  transition: 5s;
+  transition: 3s;
   transform: translateY(-15%);
 }
 
