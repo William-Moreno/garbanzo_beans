@@ -1,26 +1,60 @@
 function welcome(){
-  var userName = prompt(`Hello. What is your name?`, 'Visitor');
+  var userName = prompt('Hello. What is your name?', 'Visitor');
   var today = new Date();
-  var weekday = [`Sunday`,`Monday`,`Tuesday`,`Wednesday`,`Thursday`,`Friday`,`Saturday`]
+  var weekday = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday']
   var dayNow = weekday[today.getDay()];
   
-  document.write(`<h2>${userName}, the suggested recipe  for ${dayNow} is...</h2>`);
-
+  document.write('<h2>' + userName + ', the suggested recipe  for ' + dayNow + ' is...</h2>');
 }
+var award;
 
 function daysRecipe(){
-  var random = Math.floor(Math.random() * 3);
+var random = Math.floor(Math.random() * 3);
 
-  if (random == 0){
-    var card = document.getElementById('left');
-  } else if (random == 1){
-    var card = document.getElementById('middle');
-  } else {
-    var card = document.getElementById('right');
-  } 
 
-  card.classList.add("lift");
+if (random == 0){
+  var card = document.getElementById('left');
+  var star = document.getElementById('curry');
+} else if (random == 1){
+  var card = document.getElementById('middle');
+  var star = document.getElementById('nuggets');
+} else {
+  var card = document.getElementById('right');
+  var star = document.getElementById('falafel');
+} 
+
+card.classList.add("lift");
+award = star;
 }
 
+// function likeIt(){
+  beans = '<img src="garbanzo.png" width="50px" height="50px">';
 
+  var rate;
+  var finalScore;
+
+  function rateIt(){
+    var rating = prompt('From 1 to 5, How many beans would you rate this dish?');
+
+    while(rating < 1 || rating > 5){
+      var rating = prompt('Please enter a number between 1 and 5.');
+    }
+
+    rate = rating;
+    showRating();
+    stampIt();
+  }
+
+  function showRating(){
+    var score = '';
+    for(i = 0; i < rate ; i++){
+      score += beans;
+    }
+    finalScore = score;
+  }
+
+  function stampIt(){
+    award.innerHTML = finalScore;
+  }
+// }
 
