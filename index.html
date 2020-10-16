@@ -1,94 +1,86 @@
 <!DOCTYPE html>
-<html lang="en">
+  <html lang="en">
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Garbanzo Beans</title>  
-  <link rel="stylesheet" href="style.css" type="text/css">
-  <script src="app.js"></script>
-</head>
+    <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Garbanzo Beans x 3</title>  
+      <link rel="stylesheet" href="style.css" type="text/css">
+      <script src="app.js"></script>
+    </head>
 
-<body>
-<header>
-  <h1>Garbanzo Beans<sup>3</sup></h1>
-  <h6><i>Three recipes for you to try each day...</i><button id="vote-btn" onclick="likeIt()">Rate this Dish</button></h6>
-  <nav>
-    <ul>
-      <li>
-        <a href="#" class="nav-btn">Information</a></li>
-      <li>
-        <a href="#" class="nav-btn">More Recipes</a></li>
-      <li>
-        <a href="#" class="nav-btn">About Us</a></li>
-    </ul>
-  </nav>
-</header>
-<section class="section top">
-  <div class="date">
-    <script>
-      welcome();
-    </script>
-  </div>
-  <img src="garbanzobeans1.jpg" class="large-img" alt="Garbanzo Beans">
+    <body>
+      <header>
+        <h1>Garbanzo Beans<sup>3</sup></h1>
+        <h6><i>Three recipes for you to try each day...</i><button id="vote-btn" onclick="likeIt()">Rate this Dish</button></h6>
+        <nav>
+          <ul>
+            <li>
+              <a href="#" class="nav-btn">Information</a>
+            </li>
+            <li>
+              <a href="#" class="nav-btn">More Recipes</a>
+            </li>
+            <li>
+              <a href="#" class="nav-btn">About Us</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <section class="section top">
+        <div class="date">
+          <script>
+            welcome();
+          </script>
+        </div>
+        <img src="garbanzobeans1.jpg" class="large-img" alt="Garbanzo Beans">
+        <article>
+          <p>Soko radicchio bunya nuts gram dulse silver beet parsnip napa cabbage lotus  root sea lettuce brussels sprout cabbage.
+          Catsear cauliflower garbanzo yarrow salsify chicory garlic bell pepper    napa cabbage lettuce tomato kale arugula melon
+          sierra leone bologi rutabaga tigernut. Sea lettuce gumbo grape kale kombu cauliflower salsify kohlrabi okra sea lettuce
+          broccoli celery lotus root carrot winter purslane turnip greens garlic. Garlic courgette coriander radicchio
+          plantain scallion cauliflower fava bean desert raisin spring onion chicory bunya nuts. Sea lettuce water spinach gram
+          fava bean leek dandelion silver beet eggplant bush tomato.</p>
+        </article>
+      </section>
+      <div id="lower">
+        <section class="section bottom" id="left">
+          <img src="curry1.jpg" class="small-img" alt="Chickpea Curry">
+          <h3>Coconut Chickpea Curry</h3>
+          <article>
+            <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens
+            dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
+            <p class="ratings" id="curry"></p>
+          </article>
+        </section>
+        <section class="section bottom" id="middle">
+          <img src="nuggets1.jpg" class="small-img" alt="Chickpea Nuggets">
+          <h3>Chickpea Nuggets</h3>
+          <article>
+            <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon
+            napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko.</p>
+            <p class="ratings" id="nuggets"></p>
+          </article>
+        </section>
+        <section class="section bottom" id="right">
+          <img src="falafel1.jpg" class="small-img" alt="Baked Falafel">
+          <h3>Baked Falafel</h3>
+          <article>
+            <p>Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed
+            collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
+            <p class="ratings" id="falafel"></p>
+          </article>
+        </section>
+      </div>
+      <div class="dar-ci">
+        <a href="https://dcalhoun286.github.io/garbanzo/" class="btn">Dar-Ci's Garbanzo Page</a>
+      </div>
+      <footer>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis vero dolore repellat!</p>
+      </footer>
+      <script>
+        daysRecipe();
+      </script>
+    </body>
 
-  <article>
-  <p>Soko radicchio bunya nuts gram dulse silver beet parsnip napa cabbage lotus root sea lettuce brussels sprout cabbage.
-  Catsear cauliflower garbanzo yarrow salsify chicory garlic bell pepper napa cabbage lettuce tomato kale arugula melon
-  sierra leone bologi rutabaga tigernut. Sea lettuce gumbo grape kale kombu cauliflower salsify kohlrabi okra sea lettuce
-  broccoli celery lotus root carrot winter purslane turnip greens garlic. Garlic courgette coriander radicchio
-  plantain scallion cauliflower fava bean desert raisin spring onion chicory bunya nuts. Sea lettuce water spinach gram
-  fava bean leek dandelion silver beet eggplant bush tomato.</p>
-  </article>
-</section>
-<div id="lower">
-<section class="section bottom" id="left">
-  <img src="curry1.jpg" class="small-img" alt="Chickpea Curry">
-  <h3>Coconut Chickpea Curry</h3>
-  <article>
-  <p>Gumbo beet greens corn soko endive gumbo gourd. Parsley shallot courgette tatsoi pea sprouts fava bean collard greens
-  dandelion okra wakame tomato. Dandelion cucumber earthnut pea peanut soko zucchini.</p>
-  <p class="ratings" id="curry">
-
-  </p>
-  </article>
-</section>
-<section class="section bottom" id="middle">
-  <img src="nuggets1.jpg" class="small-img" alt="Chickpea Nuggets">
-  <h3>Chickpea Nuggets</h3>
-  <article>
-  <p>Turnip greens yarrow ricebean rutabaga endive cauliflower sea lettuce kohlrabi amaranth water spinach avocado daikon
-  napa cabbage asparagus winter purslane kale. Celery potato scallion desert raisin horseradish spinach carrot soko.</p>
-  <p class="ratings" id="nuggets">
-
-  </p>
-  </article>
-</section>
-<section class="section bottom" id="right">
-  <img src="falafel1.jpg" class="small-img" alt="Baked Falafel">
-  <h3>Baked Falafel</h3>
-  <article>
-  <p>Celery quandong swiss chard chicory earthnut pea potato. Salsify taro catsear garlic gram celery bitterleaf wattle seed
-  collard greens nori. Grape wattle seed kombu beetroot horseradish carrot squash brussels sprout chard.</p>
-  <span class="ratings" id="falafel">
-
-  </span>
-  </article>
-</section>
-</div>
-<div class="dar-ci">
-<a href="https://dcalhoun286.github.io/garbanzo/" class="btn">Dar-Ci's Garbanzo Page</a>
-</div>
-<footer>
- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis vero dolore repellat!</p>
-</footer>
-<p>
-
-</p>
-<script>
-  daysRecipe();
-  // rateIt();
-</script>
-</body>
-
-</html>
+  </html>
