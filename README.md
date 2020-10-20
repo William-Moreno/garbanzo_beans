@@ -1,3 +1,3 @@
 # garbanzo_beans
 
-Repo for garbanzo bean website lab 04 with Dar-Ci
+Repo for Code 102 website labs 04 through 08.
